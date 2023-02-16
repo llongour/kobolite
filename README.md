@@ -4,6 +4,10 @@
 # kobolite
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/llongour/kobolite/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/llongour/kobolite/actions/workflows/R-CMD-check.yaml)
+[![kobolite status
+badge](https://llongour.r-universe.dev/badges/kobolite)](https://llongour.r-universe.dev)
 <!-- badges: end -->
 
 ## Installation

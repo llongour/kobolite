@@ -18,10 +18,9 @@
 ktb_projects_list <- function(endpoint, username, password){
   GET(url = paste0(endpoint, "data.csv"),
       authenticate(user = username,
-                   password = password),
-      progress()
+                   password = password)
   ) |>
-    content(type = "text/csv", encoding = "UTF-8")
+    content(type = "text/csv", encoding = "UTF-8", show_col_types = ",")
 }
 
 #' Get data of project
@@ -47,8 +46,7 @@ ktb_projects_list <- function(endpoint, username, password){
 ktb_project_data <- function(endpoint, project_id, username, password){
   GET(url = paste0(endpoint, "data/", project_id, ".csv"),
       authenticate(user = username,
-                   password = password),
-      progress()
+                   password = password)
   ) |>
-    content(type = "text/csv", encoding = "UTF-8")
+    content(type = "text/csv", encoding = "UTF-8", show_col_types = ",")
 }

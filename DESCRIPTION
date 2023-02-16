@@ -1,6 +1,6 @@
 Package: kobolite
 Title: Get data from KoboToolBox
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
     person("Lucas", "Longour", , "lucas.longour@ird.fr", role = c("aut", "cre"))
 Description: Get data from KoboToolBox.

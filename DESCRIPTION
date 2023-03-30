@@ -2,7 +2,7 @@ Package: kobolite
 Title: Get data from KoboToolBox
 Version: 1.0.1
 Authors@R: 
-    person("Lucas", "Longour", , "lucas.longour@ird.fr", role = c("aut", "cre"))
+    person("Lucas", "Longour", , "lucas.longour@protonmail.ch", role = c("aut", "cre"))
 Description: Get data from KoboToolBox.
 Imports:
     httr
